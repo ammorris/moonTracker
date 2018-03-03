@@ -1,0 +1,42 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #222;
+	background: #222 url('../img/background3.png');
+	background-size: cover;
+	background-position: 0 -90px;
+	overflow: hidden;
+}
+
+p {
+	margin: 0;
+}
+
+.info {
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 5%;
+	width: 60%;
+	height: 50%;
+	margin: 5% auto 0 auto;
+/*	background: rgba(0, 0, 0, 0.2);*/
+	color: #fff;
+	font-size: 3em;
+	font-family: "Spirax", serif;
+	text-shadow: 2px 2px 5px pink;
+}
+
+.info p {
+	padding-bottom: 10px;
+}
+
+img {
+	width: 100px;
+	opacity: 0.6;
+	margin-top: 20px;
+}
