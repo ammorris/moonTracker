@@ -37,6 +37,35 @@ p {
 
 img {
 	width: 100px;
-	opacity: 0.6;
+	opacity: 0.55;
 	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav {
+	width: 60%;
+	margin-left: auto;
+	margin-right: 20px;
+	opacity: 0.1;
+	font-family: "Wingdings", serif;
+	text-decoration: none;
+}
+
+.nav li {
+	display: inline-block;
+	color: purple;
+	background-color: #70b7ff;
+	font-size: 25px;
+	letter-spacing: 5px;
+	border-radius: 3%;
+	box-shadow: 2px -2px 3px #bbb;
+	padding: 5px 10px;
+}
+.nav li:hover {
+	color: orange;
+	background-color: #fff;
 }
