@@ -47,11 +47,11 @@ a {
 }
 
 .nav {
-	width: 60%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: 20px;
 	opacity: 0.1;
-	font-family: "Wingdings", serif;
+	font-family: "Wingdings", sarif;
 	text-decoration: none;
 }
 
@@ -68,4 +68,8 @@ a {
 .nav li:hover {
 	color: orange;
 	background-color: #fff;
+}
+
+#clock {
+	font-family: "Orbitron", sarif;
 }
