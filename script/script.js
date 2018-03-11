@@ -2,6 +2,8 @@ var decimalPhase = SunCalc.getMoonIllumination(new Date()).phase;
 var phase = decimalToPhase(decimalPhase);
 var infoBox = document.getElementsByClassName("info")[0];
 const clock = document.getElementById("clock");
+const inputBar = document.getElementById('myTextInput');
+const myButton = document.getElementById('myButton');
 
 // Display messages
 var message1 = document.createElement('p');
@@ -15,6 +17,20 @@ infoBox.appendChild(message2);
 var image = document.createElement('img');
 image.src = getPhaseImg(decimalPhase);
 infoBox.appendChild(image);
+
+myButton.onclick = function() {
+    var searchText = inputBar.value;
+    // alert("At this point, a Google search for " + searchText + " should pop open.");
+    var searchString = "https://www.google.com/search?q=" + searchText;
+    // alert("Its url should read " + searchString + ".");
+    window.open(searchString, "_self");
+}
+
+window.onkeydown = function(key) {
+    if(key.keyCode == 13) {
+        myButton.click();
+    }
+}
 
 function decimalToPhase(decimalPhase) {
     var degrees = decimalPhase * 360;

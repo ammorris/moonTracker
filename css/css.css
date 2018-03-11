@@ -9,7 +9,6 @@ body {
 	background-color: #222;
 	background: #222 url('../img/background3.png');
 	background-size: cover;
-	background-position: 0 -90px;
 	overflow: hidden;
 }
 
@@ -47,7 +46,7 @@ a {
 }
 
 .nav {
-	width: 70%;
+	width: 85%;
 	margin-left: auto;
 	margin-right: 20px;
 	opacity: 0.1;
@@ -68,6 +67,19 @@ a {
 .nav li:hover {
 	color: orange;
 	background-color: #fff;
+}
+
+#myTextInput {
+	font-family: "Orbitron", sarif;
+	background-color: yellow;
+	color: #666;
+}
+
+#myButton {
+	border-radius: 10px;
+	color: #d188e3;
+	background-color: purple;
+	font-family: inherit;
 }
 
 #clock {
