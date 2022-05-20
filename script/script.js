@@ -7,7 +7,7 @@ const myButton = document.getElementById('myButton');
 
 // Display messages
 var message1 = document.createElement('p');
-message1.innerHTML = "&#9907; Current moon phase is " + decimalPhase.toFixed(2) + " &#9910;";
+message1.innerHTML = "&#9907; Current moon phase is " + (decimalPhase.toFixed(2) * 100) + "%" + " &#9910;";
 infoBox.appendChild(message1);
 
 var message2 = document.createElement('p');
